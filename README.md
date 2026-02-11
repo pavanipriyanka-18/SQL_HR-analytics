@@ -22,7 +22,7 @@ SQL Concepts Covered:
 - Aggregations (COUNT, AVG, SUM, MIN, MAX)
 
 - HR analytics logic (attrition, performance, attendance)
-- 
+
 
 How to Use This Project:
 - Run schema.sql to create tables
