@@ -1,4 +1,4 @@
--- Employees table
+Employees table
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -9,7 +9,7 @@ CREATE TABLE employees (
     salary DECIMAL(10,2)
 );
 
--- Performance Reviews table
+Performance Reviews table
 CREATE TABLE performance_reviews (
     review_id INT PRIMARY KEY,
     employee_id INT,
@@ -18,7 +18,7 @@ CREATE TABLE performance_reviews (
     FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
 );
 
--- Attendance table
+Attendance table
 CREATE TABLE attendance (
     attendance_id INT PRIMARY KEY,
     employee_id INT,
@@ -27,7 +27,7 @@ CREATE TABLE attendance (
     FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
 );
 
--- Attrition table
+Attrition table
 CREATE TABLE attrition (
     attrition_id INT PRIMARY KEY,
     employee_id INT,
